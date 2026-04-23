@@ -1,0 +1,11 @@
+(eliminare cartella venv se presente*)
+cd LangChain
+python -m venv venv
+pip install langchain-community langchain-ollama langgraph
+
+(attivare ambiente virtuale su windows)
+cd .\LangChain\
+venv\Scripts\activate
+
+pip install -U langchain
+pip show langchain
