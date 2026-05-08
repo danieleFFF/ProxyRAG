@@ -1,0 +1,10 @@
+{
+  "languages": {
+    "Python": {
+      "language_servers": ["pyrefly"],
+      "interpreter": {
+        "path": "c:/Users/danie/Desktop/Scripts/LangChain/venv/Scripts/python.exe"
+      }
+    }
+  }
+}
