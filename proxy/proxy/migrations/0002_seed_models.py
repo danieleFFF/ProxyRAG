@@ -1,10 +1,9 @@
 from django.db import migrations
 
-# forward function
+
 def seed_default_models(apps, schema_editor):
     AIModel = apps.get_model('proxy', 'AIModel')
-    
-    # default models mapping
+
     default_models = [
         {
             "name": "qwen3.5:2b",
@@ -37,17 +36,16 @@ def seed_default_models(apps, schema_editor):
             }
         )
 
-# rollback function
+
 def reverse_seed_default_models(apps, schema_editor):
     AIModel = apps.get_model('proxy', 'AIModel')
     AIModel.objects.all().delete()
 
 
-# tells django that this is a migration that needs to be executed after step 2
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('proxy', '0002_aimodel'),
+        ('proxy', '0001_initial'),
     ]
 
     operations = [
