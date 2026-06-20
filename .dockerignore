@@ -1,0 +1,21 @@
+# Virtual environment — packages are installed fresh by pip in the Dockerfile
+venv/
+.venv/
+
+# ChromaDB data — mounted as a read-only volume at runtime, no need to bake into image
+embeddings/
+
+# Git history — not needed in the container
+.git/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables — never include in image
+.env
+
+# IDE
+.vscode/
+.idea/
