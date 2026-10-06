@@ -1,6 +1,6 @@
 # ProxyRAG
 
-A Django proxy that sits between [Open WebUI](https://github.com/open-webui/open-webui) and multiple LLM agents, adding **role-based access control** via Keycloak and **RAG** (Retrieval-Augmented Generation) over a medical document database powered by ChromaDB.
+A Django proxy that sits between [Open WebUI](https://github.com/open-webui/open-webui) and multiple LLM agents, adding **role-based access control** via Keycloak and **RAG** (Retrieval-Augmented Generation) over a domain document database powered by ChromaDB.
 
 ## Architecture
 
