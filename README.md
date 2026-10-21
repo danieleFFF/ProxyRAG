@@ -51,8 +51,8 @@ Open WebUI  -->  Django Proxy  -->  LangServe Agents  -->  Ollama
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/danieleFFF/LangChain.git
-   cd LangChain
+   git clone https://github.com/danieleFFF/ProxyRAG.git
+   cd ProxyRAG
    ```
 
 2. **Create the `.env` file**
