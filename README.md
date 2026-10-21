@@ -2,6 +2,25 @@
 
 A Django proxy that sits between [Open WebUI](https://github.com/open-webui/open-webui) and multiple LLM agents, adding **role-based access control** via Keycloak and **RAG** (Retrieval-Augmented Generation) over a domain document database powered by ChromaDB.
 
+**Docker**:
+<img width="1368" height="552" alt="image" src="https://github.com/user-attachments/assets/f549d677-d1eb-46bb-9504-98984768d1b0" />
+
+**Keycloak**:
+<img width="1408" height="766" alt="image" src="https://github.com/user-attachments/assets/204560d5-59a5-4977-86ce-14bec61189cb" />
+
+**Open WebUI (1)**:
+<img width="1015" height="1029" alt="image" src="https://github.com/user-attachments/assets/e8451809-203c-4599-8c83-91de2c28a3e6" />
+
+**Open WebUI (2)**:
+<img width="1008" height="997" alt="image" src="https://github.com/user-attachments/assets/08b2152a-b453-4cb7-8742-87a1c93a756b" />
+
+**Django Administration (1)**:
+<img width="1187" height="445" alt="image" src="https://github.com/user-attachments/assets/8de4bb07-4979-492b-bcb9-3399b6998748" />
+
+**Django Administration (2)**:
+<img width="1183" height="447" alt="image" src="https://github.com/user-attachments/assets/09214327-509b-4c86-af71-387f7c535836" />
+
+
 ## Architecture
 
 ```
